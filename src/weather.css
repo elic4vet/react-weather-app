@@ -51,3 +51,6 @@
   top: -34px;
   line-height: 1;
 }
+.float-left div {
+  display: inline;
+}
