@@ -12,7 +12,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            and it is open sourced
+            and it is open-sourced on Github
           </a>{" "}
         </footer>
       </div>
