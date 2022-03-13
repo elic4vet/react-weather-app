@@ -1,7 +1,3 @@
-body {
-  background-image: url("blue-sky.jpg");
-}
-
 .weather {
   border: 1px solid #dadde1;
   color: rgb(135, 135, 135);
@@ -9,7 +5,6 @@ body {
   padding: 16px;
   border-radius: 4px;
   width: 100%;
-  background-color: #ffffff;
 }
 
 .weather form {
@@ -22,6 +17,7 @@ body {
   height: 28px;
   line-height: 29px;
   margin: 20px 0 0 0;
+  color: #ec4c6f;
 }
 
 .weather ul {
@@ -34,6 +30,7 @@ body {
   line-height: 19px;
   list-style: none;
 }
+
 .WeatherInfo canvas {
   display: inline-block;
   margin-right: 10px;
@@ -55,6 +52,7 @@ body {
   font-weight: 400;
   line-height: 64px;
   margin-left: 10px;
+  color: #141113;
 }
 
 .WeatherInfo .temperature-container {
@@ -71,4 +69,12 @@ body {
 }
 .float-left {
   display: inline-block;
+}
+
+.WeatherForecast-temperature-max {
+  color: #f94b71;
+}
+
+.WeatherForecast-temperature-min {
+  color: #e9859b;
 }
