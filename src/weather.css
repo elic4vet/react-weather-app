@@ -1,14 +1,21 @@
+body {
+  background-image: url("blue-sky.jpg");
+}
+
 .weather {
   border: 1px solid #dadde1;
   color: rgb(135, 135, 135);
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
   border-radius: 4px;
+  width: 100%;
+  background-color: #ffffff;
 }
 
 .weather form {
   margin: auto;
 }
+
 .weather h1 {
   font-size: 24px;
   font-weight: 100;
